@@ -5,23 +5,24 @@ text-align: center;
 font-family: "poppins";
 }
 nav{
-    height: 375px;
+    height: 40vh;
     text-align: center;
 }
 .logo{
     display: inline-block;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     padding: 5px;
     border-radius: 50%; 
     border: 3px solid #c9c1cf;
-    margin-top:50px
+    margin-top:40px
 }
 
 nav p{
-    font-size: 20px;
+    font-size: 15px;
     color:#c9c1cf;
     font-weight: 300;
+    margin-top: 5px;
 }
 .imgBtn{
     height: 40px;
@@ -35,34 +36,35 @@ nav ul li {
     display: inline-block;
 }
 nav ul li a{
-    padding: 5px;
+    padding-right: 5px;
 }
 
 section{
-    width: 70%;
-    height: 450px;
+    width: 80vw;
+    height: 50vh;
     margin: auto;
     text-align: center;
 }
 section p{
     color:#101010;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
     margin-bottom: 25px;
-    line-height: 1;
+    margin-top: 15px;
+    line-height: 1.3;
     letter-spacing: 1px;
     font-weight: 400;
 }
 .btn{
 display: block;
-margin-top: 50px;
+margin-top: 35px;
 padding-inline-start: 0px;
     /* acá lo mismo, no entiendo pero se arregló */
 
 }
 .btn li{
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 27px;
 }
 .btn li a{
     color: #101010;
@@ -70,8 +72,8 @@ padding-inline-start: 0px;
     border: solid 3px;
     border-color: #101010;
     background-color: white;
-    margin-bottom: 20px;
-    padding: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
     box-shadow: -5px 5px 0px 0px #101010; 
 }
 .btn li a:hover{
@@ -83,7 +85,7 @@ padding-inline-start: 0px;
     box-shadow: -5px 5px 0px 0px white;
 }
 footer{
-    height: 10%
+    height: 10vh
 }
 
 footer hr {
