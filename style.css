@@ -1,0 +1,96 @@
+body{
+    background-color: #402b9c;
+    margin: auto;
+text-align: center;
+font-family: "poppins";
+}
+nav{
+    height: 375px;
+    text-align: center;
+}
+.logo{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 50%; 
+    border: 3px solid #a197a8;
+    margin-top:50px
+}
+
+nav p{
+    font-size: 20px;
+    color:#a197a8;
+    font-weight: 300;
+}
+.imgBtn{
+    height: 40px;
+}
+nav ul{
+    text-align: center;
+    padding-inline-start: 0px;
+    /* esto  de padding-inline-start apareció en la consola, no se centraba y cuando lo pegué acá y le puse 0px se arregló pero no entendí que pasaba */
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    padding: 5px;
+}
+
+section{
+    width: 70%;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+}
+section p{
+    color:#101010;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.btn{
+display: block;
+margin-top: 50px;
+padding-inline-start: 0px;
+    /* acá lo mismo, no entiendo pero se arregló */
+
+}
+.btn li{
+    display: block;
+    margin-bottom: 40px;
+}
+.btn li a{
+    color: black;
+    text-decoration: none;
+    border: solid 3px;
+    border-color: black;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: -5px 5px 0px 0px black; 
+}
+.btn li a:hover{
+    background-color: white;
+    color: white;
+    border: solid 3px;
+    border-color: white;
+    background-color: black;
+    box-shadow: -5px 5px 0px 0px white;
+}
+footer{
+    height: 10%
+}
+
+footer hr {
+    border: 1px solid #a197a8;
+}
+footer p{
+    color: #101010;
+    font-size: 14px;
+    font-weight: 300;
+}
