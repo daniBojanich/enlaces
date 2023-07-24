@@ -5,24 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniela Bojanich - Enlaces</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/favicon.png" type="image/png">
-    <meta name="description" content="Trabajos de producción audiovisual y contacto de Daniela Bojanich">
-    <meta name="keywords" content="produccion audiovisual, animación, ilustración, fotografía, video, after effects, publicidad">
-    <meta name="author" content="Daniela Bojanich">
-    <meta name="copyright" content="Daniela Bojanich 2023">
+    <link rel="icon" href="img/favicon.png" type="image/png"/>
+    <meta name="description" content="Trabajos de producción audiovisual y contacto de Daniela Bojanich"/>
+    <meta name="keywords" content="produccion audiovisual, animación, ilustración, fotografía, video, after effects, publicidad"/>
+    <meta name="author" content="Daniela Bojanich"/>
+    <meta name="copyright" content="Daniela Bojanich 2023"/>
     <!--Robots-->
+    <meta name="robots" content="index"/>
+    <meta name="robots" content="follow"/>
     <!--metas facebook-->
-    <meta property="og:title" content="Daniela bojanich | Producción Audiovisual">
-    <meta property="og:description" content="Trabajos de producción audiovisual y contacto de Daniela Bojanich">
-    <meta property="og:type" content="link tree">
-    <meta property="og:image" content="img/tardis-standard-width-1080px-gigapixel.jpg">
-    <meta property="og:url" content="https://danibojanich.github.io/enlaces/">
+    <meta property="og:title" content="Daniela bojanich | Producción Audiovisual"/>
+    <meta property="og:description" content="Trabajos de producción audiovisual y contacto de Daniela Bojanich"/>
+    <meta property="og:type" content="link tree"/>
+    <meta property="og:image" content="img/tardis-standard-width-1080px-gigapixel.jpg"/>
+    <meta property="og:url" content="https://danibojanich.github.io/enlaces/"/>
 <!--metas twitter-->
-<meta property="twitter:title" content="Daniela bojanich | Producción Audiovisual">
-    <meta property="twitter:description" content="Trabajos de producción audiovisual y contacto de Daniela Bojanich">
-    <meta property="twitter:type" content="link tree">
-    <meta property="twitter:image" content="https://github.com/daniBojanich/enlaces/blob/main/img/foto%20tardis-standard-width-1080px-gigapixel.jpg">
-    <meta property="twitter:url" content="https://danibojanich.github.io/enlaces/">
+<!-- no me funcionaba la imagen en twitter, busqué en la documentación oficial y en vez de property usan "name" -->
+<!-- en esta pag oficial lo explica https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary -->
+<!-- también leí que la url debía estar completa, ni idea, facebook no me dio tantas vueltas -->
+    <meta name="twitter:title" content="Daniela bojanich | Producción Audiovisual"/>
+    <meta name="twitter:description" content="Trabajos de producción audiovisual y contacto de Daniela Bojanich"/>
+    <meta name="twitter:type" content="link tree"/>
+    <meta name="twitter:image" content="https://github.com/daniBojanich/enlaces/blob/main/img/foto%20tardis-standard-width-1080px-gigapixel.jpg"/>
+    <meta name="twitter:url" content="https://danibojanich.github.io/enlaces/"/>
     <!-- tipografias -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,6 +58,16 @@
         <footer>
         <hr>
         <p>&copy; Copyright 2023 | Hecho por Daniela Bojanich.</p>
+        <!-- microformatos -->
+        <div itemscope itemtype="https://schema.org/Person">
+        <span class="oculto"><div itemprop="givenName">Daniela</div></span>
+        <span class="oculto"><div itemprop="familyName">Bojanich</div></span>        
+        <span class="oculto"><div itemprop="birthDate">1991-12-18</div></span>        
+        <span class="oculto"><div itemprop="homeLocation">Rosario, Santa fe, Argentina</div></span>
+        <span class="oculto"><div itemprop="birthPlace">Sáenz Peña, Chaco, Argentina</div></span>
+        <span class="oculto"><div itemprop="HasOccupation">Motion Grapher</div></span>
+        <span class="oculto"><div itemprop="jobTitle">Diseñadora gráfica</div></span>
+        <span class="oculto"><div itemprop="nationality">Argentina</div></span>
         </footer>
 </body>
 </html>
