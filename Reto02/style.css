@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    font-family: Arial;
+    height: 100vh;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 250px;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    justify-content: flex-end;
+    align-content: center;
+    padding: 6px;
+}
+
+header nav{
+    background-color: white;
+    height: 48px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav a{
+    font-weight: 400;
+    font-size: 13px;
+    /* line-height: 24px; */
+    color: #202124;
+    text-decoration: none;
+    padding: 4px;
+}
+
+header nav a .puntitos{
+height: 22px;
+width: 22px;
+}
+
+.fotoPerfil{
+    height: 32px;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .logoGoogle{
+    height: 92px;
+}
+
+section .barradebusqueda{
+    background-color: #fff;
+    width: 580px;
+    height: 46px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    box-shadow: 0px 0px 2px #eee;
+
+    
+}
+.inputStyle{
+    border: 0px;
+}
+.inputIconos{
+    flex-direction: row;
+    margin-right: 22px;
+}
+.barradebusqueda img{
+    height: 24px;
+}
+.lupa{
+    margin: 0 10px;
+}
+.inputStyle {
+flex:1;
+}
+.inputStyle:focus{
+    outline: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2;
+}
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #70757a;
+    padding: 15px;
+}
+footer .footer1 {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #aaa;
+    
+}
+
+footer .footer2{
+    display: flex;
+    align-items: center;
+    height: 46px;
+    justify-content: space-between;
+}
+
+.botones{
+    margin-top: 15px
+}
+.botones a{
+    text-decoration: none;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 11px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.botones a:hover{
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 2px #eee;
+}
