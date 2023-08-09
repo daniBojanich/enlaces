@@ -3,12 +3,21 @@ body{
     height: 100vh;
     /* background-color: #512DA8; */
     background: rgb(176,19,242);
-background: linear-gradient(-15deg, rgba(176,19,242,1) 0%, rgba(101,11,191,1) 50%, rgba(79,68,242,1) 100%);
+    background: linear-gradient(-15deg, rgba(176,19,242,1) 0%, rgba(101,11,191,1) 50%, rgba(79,68,242,1) 100%);
     margin: auto;
 text-align: center;
 font-family: "poppins";
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
 header{
+    display: flex;
+    flex-direction: column;
     height: 45vh;
     text-align: center;
 }
@@ -40,6 +49,8 @@ nav a{
 }
 
 section{
+    display: flex;
+    flex-direction: column;
     width: 60vw;
     max-width: 350px;
     height: 45vh;
@@ -59,38 +70,38 @@ section p{
 section p span{
     color: #00BCD4;
 }
-.btn{
-display: block;
+
+.botones{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+align-content: stretch;
 margin-top: 25px;
 padding-inline-start: 0px;
-    /* acá lo mismo, no entiendo pero se arregló */
+height: 125px;
 
 }
-.btn li{
-    display: block;
-    margin-bottom: 20px;
-}
-.btn li a{
+.botones a{
+    width:fit-content;
     color: #101010;
     text-decoration: none;
-    border: solid 2.5px;
-    border-color: white;
+    border: solid 3px white;
     background-color: #00BCD4;
     margin-bottom: 10px;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    box-shadow: -5px 5px 0px 0px #D1C4E9; 
+    box-shadow: -5px 5px 0px 0px rgba(255, 255, 255, 0.7);
     font-size: 13px;
 }
-.btn li a:hover{
+.botones a:hover{
     background-color: white;
     color: white;
-    border: solid 3px;
-    border-color: white;
-    background-color: #101010;
-    box-shadow: -5px 5px 0px 0px white;
+    border: solid 3px white;
+    background-color: #187481;
+    box-shadow: -5px 5px 0px 0px rgba(255, 255, 255, 0.2);
 }
 
 footer{
