@@ -1,6 +1,9 @@
 body{
+    margin: 0;
     height: 100vh;
-    background-color: #512DA8;
+    /* background-color: #512DA8; */
+    background: rgb(176,19,242);
+background: linear-gradient(-15deg, rgba(176,19,242,1) 0%, rgba(101,11,191,1) 50%, rgba(79,68,242,1) 100%);
     margin: auto;
 text-align: center;
 font-family: "poppins";
